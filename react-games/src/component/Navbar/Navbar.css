@@ -1,0 +1,21 @@
+*{ padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 12px;
+    font-size: medium;
+}

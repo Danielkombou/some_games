@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.themer{
+    border-radius: 12px;
+    border: 0;
+    padding: 10px;
+    background: #bdb9bc;
+}
+
+body{
+    font-family: sans-serif;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --background-color: #141414;
+  --text-color: #ffffff;
+  --fg-color: #ffffff;
+  --fg-text: #000000;
+}
+.app {
+  min-height: 100vh;
+  padding: 2% 2%;
+  position: relative;
+  overflow: hidden;
+}
+.theme-dark {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.circle {
+  position: absolute;
+  padding: 1rem;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(102, 149, 202);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.1s ease;
+}
